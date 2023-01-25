@@ -1,0 +1,74 @@
+[
+    {
+        "category_id": "1",
+        "name": "Old Sale",
+        "img": [
+            {
+                "first": "https://i.ibb.co/brLLkXx/old1.png",
+                "second": "https://i.ibb.co/jW7CNn3/old2.png",
+                "third": "https://i.ibb.co/C6GXtSC/old3.png"
+            }
+        ],
+        "details": [
+            {
+                "first": "***This is a full stack website and authorizes admin, seller, and buyer for their different role.",
+                "second": "*** Buyers can book their product the book seen in the dashboard.",
+                "third": "***A seller can add product and see added product in the dashboard. ",
+                "fourth": "***Sellers also can add their product for advertising.",
+                "fifth": "***Admin can delete buyers and sellers."
+            }
+        ],
+        "livelink": "https://oldsale-77ef7.web.app/",
+        "ClientSide": "https://github.com/Rayhan-Rony/old-sale-client",
+        "Server": "https://github.com/Rayhan-Rony/oldsale-server",
+        "Using": "React JS, React Router Dom, Tailwind CSS, Daisy UI, Node JS, Express JS, Firebase,MongoDB, Vercel."
+    },
+    {
+        "category_id": "2",
+        "name": "Lock Pc",
+        "img": [
+            {
+                "first": "https://i.ibb.co/hK8JnZf/lock1.png",
+                "second": "https://i.ibb.co/mCvdYw5/lock2.png",
+                "third": "https://i.ibb.co/HDN5XHS/lock3.png"
+            }
+        ],
+        "details": [
+            {
+                "first": "*** This is a full stack website. Beautifully handled responsiveness.",
+                "second": "*** Users can see some services and also can add service. ",
+                "third": "***Each service has a details button to redirect the details page.",
+                "fourth": "***Users can add reviews for the services and see my reviews in the navbar but he/she has to be login first.",
+                "fifth": "***Users can delete and edit his/her reviews."
+            }
+        ],
+        "livelink": "https://lock-pc-9bc4c.web.app/",
+        "ClientSide": "https://github.com/Rayhan-Rony/lock-pc",
+        "Server": "https://github.com/Rayhan-Rony/lock-pc-server",
+        "Using": "React JS, React Router Dom, Tailwind CSS, Daisy UI, Node JS, Express JS, Firebase,MongoDB, Vercel."
+    },
+    {
+        "category_id": "3",
+        "name": "Code Fire",
+        "img": [
+            {
+                "first": "https://i.ibb.co/j6x5kJt/code1.png",
+                "second": "https://i.ibb.co/Wg2sFYZ/code2.png",
+                "third": "https://i.ibb.co/z5Qz7vp/code3.png"
+            }
+        ],
+        "details": [
+            {
+                "first": "*** The Home page gives you the overview of the Website.",
+                "second": "*** Each course card is dynamic so if you click a card, it will redirect you to details page. ",
+                "third": "***Course details page has a premium access button for a private checkout page.",
+                "fourth": "***You can also download pdf of course details.",
+                "fifth": "*** All the courses are taken from data server."
+            }
+        ],
+        "livelink": "https://code-fire-f3577.web.app/",
+        "ClientSide": "https://github.com/Rayhan-Rony/code-fire-client-side",
+        "Server": "https://github.com/Rayhan-Rony/code-fire-server",
+        "Using": "React JS, React Router Dom, Tailwind CSS, Daisy UI, Node JS, Express JS, Firebase,MongoDB."
+    }
+]

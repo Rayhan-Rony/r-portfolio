@@ -1,11 +1,14 @@
-import Banner from "./Components/Banner/Banner";
+import { RouterProvider } from "react-router-dom";
+import router from "./Routes/Router";
+
+
 
 
 function App() {
+
   return (
     <div>
-
-      <Banner></Banner>
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }
