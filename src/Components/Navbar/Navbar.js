@@ -42,7 +42,7 @@ const Navbar = () => {
                         <ul className='flex justify-evenly font-medium cursor-pointer'>
                             {/* {(location === 'blogs' || location === 'about') && console.log('ok')} */}
                             {/* !(location === 'blogs' || location === 'about') */}
-                            {(location !== 'about' && location !== 'blogs') ? (
+                            {(location !== 'about' && location !== 'blogs' && location !== 'projects') ? (
                                 <>
                                     <li> {" "} <ScrollLink
                                         to="home"

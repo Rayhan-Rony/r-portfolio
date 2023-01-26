@@ -4,13 +4,13 @@ import { useParams } from 'react-router-dom';
 
 const ProjectsDetails = () => {
     const id = useParams().category_id
-    console.log(id)
+    // console.log(id)
     const { data: projects = [] } = useQuery({
         queryKey: ['projects'],
         queryFn: () => fetch(`https://r-server.vercel.app/projects/${id}`)
             .then(res => res.json())
     })
-    console.log(projects)
+    // console.log(projects)
     return (
         <div className='bg-gray-900 text-white'>
             <div className='w-11/12 mx-auto'>
